@@ -1,0 +1,88 @@
+div.wrapper > div.header > div.koli {
+  width: 100%;
+  height: 68px;
+  background-color: #ffff;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+div.wrapper > div.header > div.koli > div.cart {
+  width: 4%;
+  height: inherit;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.header > div.koli > div.cart > div.border {
+  width: 100%;
+  height: 30px;
+  margin-top: 22px;
+  border-right: 1px solid lightgray;
+}
+div.wrapper > div.header > div.koli > div.cart > div.border > i {
+  font-size: 20px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+div.wrapper > div.header > div.koli > div.login {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+div.wrapper > div.header > div.koli > div.login > div.text {
+  width: 94%;
+  height: 40px;
+  margin-top: 13px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  line-height: 42px;
+}
+div.wrapper > div.header > div.koli > div.login > div.text > p {
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+}
+div.wrapper > div.header > div.koli > div.login > div.text > i {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-top: 11px;
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+div.wrapper > div.header > div.koli > div.search {
+  width: 73%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.header > div.koli > div.search > input {
+  width: 600px;
+  height: 44px;
+  border-radius: 10px;
+  background: #f4f4f4;
+  margin-top: 10px;
+  margin-right: 15px;
+  border: 1px solid lightgray;
+}
+div.wrapper > div.header > div.koli > div.search > i {
+  color: rgb(175, 169, 169);
+  font-size: 20px;
+  position: absolute;
+  transform: translateX(585px);
+  margin-top: 22px;
+}
+div.wrapper > div.header > div.koli > div.logo {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+div.wrapper > div.header > div.koli > div.logo > img {
+  transform: translateY(19px);
+}

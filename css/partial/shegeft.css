@@ -1,0 +1,335 @@
+div.wrapper > div.shegeft {
+  width: 98.5%;
+  height: 300px;
+  background-color: #ef394e;
+  margin: auto;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1.5px;
+  direction: rtl;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.im {
+  width: 80px;
+  margin: auto;
+  margin-top: 20px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.img {
+  width: 120px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div
+  > p {
+  font-size: 14px;
+  color: #fff;
+}
+  div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div
+  > p
+  > i {
+  font-size: 10px;
+  margin-right: 5px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide:nth-of-type(1){
+  background-color: transparent;
+}
+.sahar {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.first {
+  width: 100%;
+  height: 60%;
+  margin-top: 10px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.first
+  > img {
+  object-fit: contain;
+  width: 130px;
+  margin: auto;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.second {
+  width: 100%;
+  height: 25px;
+  direction: ltr;
+  margin-top: 10px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.second
+  > img {
+  width: 20px;
+  display: inline-block;
+  vertical-align: top;
+  transform: translateX(-15px);
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.second
+  > p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  font-weight: 600;
+  transform: translateX(-15px);
+  line-height: 25px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.second
+  > span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  color: #fff;
+  background-color: #d32f2f;
+  width: 35px;
+  border-radius: 25px;
+  transform: translateX(15px);
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.third {
+  width: 100%;
+  height: 10%;
+
+  margin-top: 10px;
+}
+div.wrapper
+  > div.shegeft
+  > div.mySwiper2
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide
+  > div.third
+  > p {
+  color: grey;
+  font-size: 12px;
+  transform: translateX(-25px);
+  text-decoration-line: line-through;
+}
+.last {
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.last > div {
+  width: 100%;
+  height: 100px;
+  transform: translateY(90px);
+}
+.last > div > div > i {
+  transform: translateY(10px);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: aqua;
+  border: 1px solid aqua;
+}
+.last > div > div > p {
+  transform: translateY(25px);
+  font-size: 14px;
+}
+div.wrapper > div.amazing {
+  width: 100%;
+  height: 130px;
+}
+div.wrapper > div.amazing > div.bg {
+  width: 98.5%;
+  height: 110px;
+  background-color: #e7ece7;
+  transform: translateY(10px);
+  border-radius: 15px;
+  margin-left: 10px;
+  direction: rtl;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.amazing > div.bg > div.ax-1 {
+  width: 8%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.amazing > div.bg > div.ax-1 > img {
+  width: 65px;
+  margin-top: 30px;
+  object-fit: cover;
+  transform: translateX(-35px);
+}
+div.wrapper > div.amazing > div.bg > div.ax-2 {
+  width: 21%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.amazing > div.bg > div.ax-2 > img {
+  width: 250px;
+  margin-top: 50px;
+  object-fit: cover;
+  transform: translateX(-20px);
+}
+div.wrapper > div.amazing > div.bg > span.aval {
+  width: 8%;
+  height: 30px;
+  background-color: #39ae00;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 30px;
+  padding-right: 15px;
+  border-radius: 15px;
+  color: whitesmoke;
+  font-size: 14px;
+  transform: translateY(47px);
+}
+div.wrapper > div.amazing > div.bg > div.ax-3 {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  transform: translateX(-150px);
+  margin-top: 20px;
+}
+div.wrapper > div.amazing > div.bg > div.ax-3 > img {
+  width: 65px;
+  margin-right: 4px;
+  margin-top: 4px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+div.wrapper > div.amazing > div.bg > div.ax-3 > span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  color: #fff;
+  background-color: #d32f2f;
+  width: 35px;
+  border-radius: 25px;
+  transform: translateY(-25px);
+  padding-right: 5px;
+}
+div.wrapper > div.amazing > div.bg > span.akhar {
+  width: 10%;
+  height: 30px;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  line-height: 1px;
+  border-radius: 25px;
+  color: #39ae00;
+  font-size: 14px;
+  transform: translateX(-180px);
+  margin-top: 40px;
+}
+div.wrapper > div.amazing > div.bg > i {
+  position: absolute;
+  color: #39ae00;
+  transform: translateX(-155px);
+  margin-top: 53px;
+}
+div.wrapper > div.chartaee {
+  width: 100%;
+  height: 240px;
+}
+div.wrapper > div.chartaee > div {
+  width: 23.9%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+}
+div.wrapper > div.chartaee > div > img {
+  width: 320px;
+  border-radius: 15px;
+}

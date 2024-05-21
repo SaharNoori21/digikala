@@ -1,0 +1,664 @@
+div.wrapper > div.megamenu {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid rgb(180, 173, 173);
+}
+div.wrapper > div.megamenu > div.loc {
+  width: 15%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+div.wrapper > div.megamenu > div.loc > span {
+  font-size: 12px;
+  margin-left: 20px;
+  line-height: 40px;
+  color: rgb(117, 117, 117);
+  cursor: pointer;
+}
+div.wrapper > div.megamenu > div.loc > span > i {
+  font-size: 16px;
+  margin-left: 5px;
+  color: rgb(68, 68, 68);
+}
+div.wrapper > div.megamenu > div.loc > span > div.t-t {
+  width: 170px;
+  height: 40px;
+  background-color: rgb(52, 52, 105);
+  color: whitesmoke;
+  text-align: center;
+  position: absolute;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: none;
+}
+div.wrapper > div.megamenu > div.loc > span:hover > div.t-t {
+  display: block;
+}
+div.wrapper > div.megamenu > div.mainmenu {
+  width: 84.5%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav {
+  width: 94%;
+  height: 100%;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 40px;
+  margin: 0 5px;
+  padding-right: 5px;
+  position: relative;
+  cursor: pointer;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li > span {
+  color: rgb(204, 203, 203);
+  margin-right: 15px;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li > i {
+  color: rgb(168, 164, 164);
+  font-size: 12px;
+  margin: 0 2px;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li > a {
+  font-size: 12px;
+  color: rgb(117, 117, 117);
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li:nth-of-type(1) > a {
+  font-size: 15px;
+  color: black;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li:nth-of-type(1) > i {
+  font-size: 15px;
+  color: black;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li > div.border-b {
+  width: 0%;
+  height: 3px;
+  background-color: rgb(211, 47, 47);
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  transition: 500ms;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li:hover > div.border-b {
+  width: 100%;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li > div.s-menu {
+  width: 82vw;
+  height: 68vh;
+  direction: rtl;
+  position: absolute;
+  border-end-end-radius: 7px;
+  box-shadow: 1px 1px 4px gray;
+  display: none;
+  background-color: white;
+}
+div.wrapper > div.megamenu > div.mainmenu > nav > ul > li:hover > div.s-menu {
+  display: block;
+  z-index: 100;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right {
+  width: 18%;
+  height: inherit;
+  overflow-y: scroll;
+  direction: ltr;
+  background-color: rgb(240, 240, 241);
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li {
+  margin-bottom: 3px;
+  padding-right: 5px;
+  cursor: pointer;
+  transition: 350ms;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li:hover {
+  background-color: rgb(255, 255, 255);
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > a {
+  color: black;
+  font-size: 14px;
+  padding-right: 12px;
+  transition: 350ms;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > i {
+  font-size: small;
+  margin-right: 10px;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu {
+  width: calc(100% - 18%);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  overflow-y: scroll;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li:hover
+  > div.smenu {
+  display: block;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > p {
+  width: 100%;
+  height: 70px;
+  font-size: 14px;
+  padding-right: 15px;
+  line-height: 70px;
+  color: rgb(78, 78, 241);
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > p
+  > i {
+  padding-right: 10px;
+  font-size: 10px;
+}
+li.header {
+  padding-right: 20px;
+}
+li.header:hover > a {
+  color: red !important;
+}
+li.header > a {
+  color: black !important;
+  border-right: 2px solid red;
+  padding-right: 10px;
+  font-size: 14px !important;
+}
+li.header > i {
+  font-size: 9px;
+  padding-right: 2px;
+}
+li.header:hover > i {
+  color: red !important;
+}
+
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover {
+  width: 100%;
+  height: calc(100% - 70px);
+  direction: rtl;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.yek {
+  width: 24.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.yek
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.yek
+  > ul
+  > li {
+  padding-right: 15px;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.yek
+  > ul
+  > li
+  > a {
+  color: gray;
+  font-size: 12px;
+  transition: 350ms;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.yek
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.do {
+  width: 24.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.do
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.do
+  > ul
+  > li {
+  padding-right: 15px;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.do
+  > ul
+  > li
+  > a {
+  color: gray;
+  font-size: 12px;
+  transition: 350ms;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.do
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.se {
+  width: 24.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.se
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.se
+  > ul
+  > li {
+  padding-right: 15px;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.se
+  > ul
+  > li
+  > a {
+  color: gray;
+  font-size: 12px;
+  transition: 350ms;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.se
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.ch {
+  width: 24.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.ch
+  > ul {
+  width: 100%;
+  height: 100%;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.ch
+  > ul
+  > li {
+  padding-right: 15px;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.ch
+  > ul
+  > li
+  > a {
+  color: gray;
+  font-size: 12px;
+  transition: 350ms;
+}
+div.wrapper
+  > div.megamenu
+  > div.mainmenu
+  > nav
+  > ul
+  > li
+  > div.s-menu
+  > div.right
+  > ul
+  > li
+  > div.smenu
+  > div.cover
+  > div.ch
+  > ul
+  > li:hover
+  > a {
+  color: red;
+}

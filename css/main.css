@@ -1,0 +1,24 @@
+@import "./partial/header.css";
+@import "./partial/megamenu.css";
+@import "./partial/story.css";
+@import "./partial/firstslider.css";
+@import "./partial/shegeft.css";
+@import "./partial/dastebandi.css";
+@import "./partial/digiplus.css";
+@import "./partial/footer.css";
+@font-face {
+  font-family: my font;
+  src: url(../font/iran-sanse-web/IRANSansWeb.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: my font;
+}
+div.wrapper {
+  width: 100%;
+  height: 100%;
+}
